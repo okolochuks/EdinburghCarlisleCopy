@@ -1,0 +1,55 @@
+#main-cafe {
+    width: 100%;
+}
+
+.cafe-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.cafe {
+    margin : 1rem;
+    border: 3px solid #000000;
+    max-width: 15VW;
+    width: 20%
+}
+
+.cafe-header {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 2rem;
+    font-family:cursive;
+    color: darkblue;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 700px;
+    border:solid ;
+   float:;
+    background-color: aquamarine;
+}
+
+#well {
+    float: center;
+    
+}
+
+.center-row {
+    float: center;
+    font-size: 4.5rem;
+}
+
+.cta {
+    font-size: 1.3rem;
+    float:;
+    background-color:aqua;
+    border: solid;
+    font-family:cursive;
+    text-decoration-color:aliceblue;
+}

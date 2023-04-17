@@ -1,0 +1,44 @@
+#hero {
+    position ; relative;
+    width : 100%;
+    height : 90Vh;
+    background-color: #ffffff;
+    background-image : url(../gallary/indexhtmlbackgroundimage.jpg);
+    background-position : center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.hero-header {
+    position : absolute;
+    top: 20%;
+    left: 5VW;
+    font-size: 4rem;
+    color: #2426aa;
+}
+
+.hero-text {
+    position: absolute;
+    top: 35%;
+    left: 15VW;
+    font-size : 1.5rem;
+    /*word-wrap: break-word*/;
+    width: 408px;
+    text-align: center;
+    font-family: serif;
+    margin-left: auto;
+}
+
+.cta {
+    position : absolute;
+    top: 55%;
+    left: 15%;
+    padding: 0.35rem 1.2rem;
+    font-size: 1.25rem;
+    border: 0.15rem solid #ffffff;
+    border-radius: 5px;
+    background-color: #2426aa;
+    color: #ffffff;
+    cursor: pointer;
+}
